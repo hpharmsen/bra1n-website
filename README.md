@@ -9,15 +9,13 @@ python3 -m http.server 8765
 # http://localhost:8765/
 ```
 
-## Deploy to GitHub Pages
+## Live
 
-1. Create a new GitHub repo (e.g. `bra1n-website`) and push this folder:
-   ```bash
-   git remote add origin git@github.com:<user>/bra1n-website.git
-   git push -u origin main
-   ```
-2. In repo Settings → Pages: source = `Deploy from a branch`, branch = `main`, folder = `/ (root)`.
-3. Live at `https://<user>.github.io/bra1n-website/`.
+https://hpharmsen.github.io/bra1n-website/
+
+Repo: https://github.com/hpharmsen/bra1n-website (public).
+
+Pages config: source = `main` branch, root folder. Push to `main` → GitHub builds en publiceert binnen ~30s.
 
 ## Structure
 
