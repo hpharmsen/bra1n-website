@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="/index.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="/en/index.html"/>
+    <loc>https://hpharmsen.github.io/bra1n-website/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hpharmsen.github.io/bra1n-website/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hpharmsen.github.io/bra1n-website/en/"/>
   </url>
   <url>
-    <loc>/en/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="/index.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="/en/index.html"/>
+    <loc>https://hpharmsen.github.io/bra1n-website/en/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hpharmsen.github.io/bra1n-website/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hpharmsen.github.io/bra1n-website/en/"/>
   </url>
 </urlset>

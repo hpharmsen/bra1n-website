@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: /sitemap.xml
+Sitemap: https://hpharmsen.github.io/bra1n-website/sitemap.xml
