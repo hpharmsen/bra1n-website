@@ -1,6 +1,6 @@
-# brA1n website
+# BrA1n & Co website
 
-Static one-pager corporate site for brA1n. NL + EN, no build step.
+Static one-pager corporate site for BrA1n & Co. NL + EN, no build step.
 
 ## Local
 

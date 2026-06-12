@@ -110,12 +110,20 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-
   gap: 24px;
 }
 .nav__brand {
-  font-size: 22px;
-  font-weight: 700;
-  color: var(--text);
-  letter-spacing: -0.02em;
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
 }
-.nav__brand:hover { color: var(--accent); }
+.nav__brand img, .nav__brand picture {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+.nav__brand:hover { opacity: .82; }
+
+@media (max-width: 480px) {
+  .nav__brand img { height: 32px; }
+}
 .nav__links {
   display: flex;
   gap: 28px;
