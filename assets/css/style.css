@@ -130,15 +130,19 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-
 .nav__lang {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 14px;
+  gap: 12px;
+  font-size: 13px;
   color: var(--text-subtle);
   font-weight: 500;
+  letter-spacing: .04em;
 }
 .nav__lang [aria-current="true"] { color: var(--text); }
 .nav__lang a { color: var(--text-subtle); }
 .nav__lang a:hover { color: var(--accent); }
-.nav__lang-sep { opacity: .4; }
+
+@media (max-width: 480px) {
+  .nav__lang { gap: 8px; font-size: 12px; }
+}
 
 @media (max-width: 720px) {
   .nav__links { display: none; }
