@@ -147,7 +147,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-
 
 /* === Hero === */
 .hero {
-  padding: clamp(80px, 12vw, 160px) 0 clamp(64px, 9vw, 120px);
+  padding: clamp(72px, 11vw, 144px) 0 0;
   background: var(--surface);
   position: relative;
   overflow: hidden;
@@ -180,11 +180,18 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-
   letter-spacing: -0.01em;
 }
 .hero .btn { margin-top: 24px; }
-.hero__divider {
-  margin-top: clamp(64px, 8vw, 96px);
-  height: 1px;
-  background: linear-gradient(90deg, var(--text), transparent 80%);
-  opacity: .12;
+.hero__media {
+  margin: clamp(56px, 8vw, 96px) 0 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+.hero__media img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  display: block;
 }
 
 /* === Sections === */
