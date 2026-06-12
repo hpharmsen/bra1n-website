@@ -1,3 +1,13 @@
+// Sluit het taalkeuze-paar: zodra de bezoeker een specifieke taalpagina
+// bekijkt (manueel of via auto-redirect), markeren we dat in sessionStorage
+// zodat de root-NL pagina niet opnieuw redirect.
+try {
+  var pageLang = document.documentElement.lang;
+  if (pageLang && pageLang !== 'nl') {
+    sessionStorage.setItem('langChosen', pageLang);
+  }
+} catch (e) {}
+
 // Footer year
 const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
