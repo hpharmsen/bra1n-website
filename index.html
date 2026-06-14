@@ -9,7 +9,7 @@
 (function () {
   try {
     if (sessionStorage.getItem('langChosen')) return;
-    var supported = ['nl','en','de','fr','it','es'];
+    var supported = ['nl','en','de','fr','it'];
     var langs = navigator.languages || [navigator.language || 'nl'];
     for (var i = 0; i < langs.length; i++) {
       var l = String(langs[i] || '').toLowerCase().split('-')[0];
@@ -35,7 +35,6 @@
 <meta property="og:locale:alternate" content="de_DE">
 <meta property="og:locale:alternate" content="fr_FR">
 <meta property="og:locale:alternate" content="it_IT">
-<meta property="og:locale:alternate" content="es_ES">
 <link rel="canonical" href="https://hpharmsen.github.io/bra1n-website/">
 <link rel="alternate" hreflang="nl" href="https://hpharmsen.github.io/bra1n-website/">
 <link rel="alternate" hreflang="en" href="https://hpharmsen.github.io/bra1n-website/en/">
